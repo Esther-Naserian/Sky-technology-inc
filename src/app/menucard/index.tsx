@@ -40,42 +40,42 @@ const CoffeeDetail: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             id: 1,
             title: 'Espresso',
             imageUrl: '/images/Fresh coffee .jpeg',
-            price: '$3.50',
+            price: '',
             description: 'Rich and bold espresso shot'
         },
         {
             id: 2,
             title: 'Cappuccino',
             imageUrl: '/images/Cappucino and croissant.jpeg',
-            price: '$4.50',
+            price: '',
             description: 'Classic cappuccino with perfect foam'
         },
         {
             id: 3,
             title: 'Club sandwich',
             imageUrl: '/images/food3.jpeg',
-            price: '$14.00',
+            price: '',
             description: 'Homemade sandwich, chicken, fried egg, ham, and cheese'
         },
         {
             id: 4,
             title: 'Burrito',
             imageUrl: '/images/food2.jpeg',
-            price: '$13.00',
+            price: '',
             description: 'with rice/beans/cabbage/guacamole/kachumber salade/sweet corn and ch'
         },
         {
             id: 4,
             title: 'Chicken wings',
             imageUrl: '/images/food1.jpeg',
-            price: '$13.00',
+            price: '',
             description: 'Served with fries or rice or salad'
         },
         {
             id: 4,
             title: 'Chicken curry',
             imageUrl: '/images/food5.jpeg',
-            price: '$13.00',
+            price: '',
             description: 'Tender chicken in hot curry sauce served with rice/chapat/ plantain and Kachumber salade'
         },
 
@@ -83,28 +83,28 @@ const CoffeeDetail: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             id: 4,
             title: 'Blue Mojito',
             imageUrl: '/images/Blue Mojito.jpeg',
-            price: '$20.00',
+            price: '',
             description: 'Light rum, club soda, fresh mint  leaves'
         },
         {
             id: 4,
             title: 'pina colado',
             imageUrl: '/images/Home _ Baked Bree.jpeg',
-            price: '$23.00',
+            price: '',
             description: 'Rum,grenadine,pineapple juice, orange juice served on the rock'
         },
         {
             id: 4,
             title: 'Tequila Sunrise',
             imageUrl: '/images/Tequila Sunset.jpeg',
-            price: '$23.00',
+            price: '',
             description: 'Bold americano with smooth finish'
         },
         {
             id: 4,
             title: 'Tequila Sunrise',
             imageUrl: '/images/Tequila Sunset.jpeg',
-            price: '$23.00',
+            price: '',
             description: 'Tequila,grenadine, orange juice served on the rock'
         },
 
@@ -263,28 +263,28 @@ const MenuCards: React.FC = () => {
                     id: 1,
                     title: 'BULLET CAMERAS',
                     imageUrl: '/images/BULLET.jpg',
-                    price: '$29.99',
+                    price: '',
                     description: 'Beautiful handcrafted ceramic pottery'
                 },
                 {
                     id: 2,
                     title: 'FULL COLOUR CAMERAS',
                     imageUrl: '/images/Full.jpg',
-                    price: '$49.99',
+                    price: '',
                     description: 'Original pieces from local artists'
                 },
                 {
                     id: 3,
                     title: 'DOME CAMERAS',
                     imageUrl: '/images/DOME.jpg',
-                    price: '$49.99',
-                    description: 'Original pieces from local artists'
+                    price: '',
+                    description:  'Original pieces from local artists'
                 },
                 {
                     id: 4,
                     title: 'IP CAMERAS',
                     imageUrl: '/images/IP.jpg',
-                    price: '$49.99',
+                    price: '',
                     description: 'Original pieces from local artists'
 
                 },
@@ -292,14 +292,14 @@ const MenuCards: React.FC = () => {
                     id: 5,
                     title: 'PTZ CAMERAS',
                     imageUrl: '/images/ptz.jpg',
-                    price: '$1000',
+                    price: '',
                     description: 'Original pieces from local artists'
                 },
                 {
                     id: 6,
                     title: 'SOLAR CAMERAS',
                     imageUrl: '/images/solar.jpg',
-                    price: '$49.99',
+                    price: '',
                     description: 'Original pieces from local artists'
                 }
             ]
@@ -314,42 +314,42 @@ const MenuCards: React.FC = () => {
                     id: 1,
                     title: 'PHONE ACCESSORIES',
                     imageUrl: '/images/_ (36).jpeg',
-                    price: '$89.99',
+                    price: '',
                     description: 'Comfortable room with modern amenities'
                 },
                 {
                     id: 2,
                     title: 'COMPUTER ACCESSORIES',
                     imageUrl: '/images/Eco-Friendly Tropical Bedroom.jpeg',
-                    price: '$149.99',
+                    price: '',
                     description: 'Spacious suite with premium features'
                 },
                 {
                     id: 3,
                     title: 'INTERNET INSTALLATION',
                     imageUrl: '/images/INTERNET.jpg',
-                    price: '$149.99',
+                    price: '',
                     description: 'Spacious suite with premium features'
                 },
                 {
                     id: 4,
                     title: 'COMPUTERS',
                     imageUrl: '/images/laptop.jpg',
-                    price: '$149.99',
+                    price: '',
                     description: 'Spacious suite with premium features'
                 },
                 {
                     id: 5,
                     title: 'GENERAL SUPPLLIES',
                     imageUrl: '/images/computer accesory.jpg',
-                    price: '$149.99',
+                    price: '',
                     description: 'Spacious suite with premium features'
                 },
                 {
                     id: 6,
                     title: 'ELECTRIC WORKS',
                     imageUrl: '/images/gussest.jpeg',
-                    price: '$149.99',
+                    price: '',
                     description: 'Spacious suite with premium features'
                 }
             ]
@@ -364,42 +364,42 @@ const MenuCards: React.FC = () => {
                     id: 1,
                     title: 'PRINTERS',
                     imageUrl: '/images/paint1.jpg',
-                    price: '$199.99',
+                    price: '',
                     description: 'Exclusive artwork prints from featured artists'
                 },
                 {
                     id: 2,
                     title: 'ALARMS',
                     imageUrl: '/images/siren-kit1.jpg',
-                    price: '$2000',
+                    price: '',
                     description: 'One-of-a-kind original artworks'
                 },
                 {
                     id: 2,
                     title: 'INTERCOM SYSTEMS',
                     imageUrl: '/images/paint10.jpg',
-                    price: '$1000',
+                    price: '',
                     description: 'One-of-a-kind original artworks'
                 },
                 {
                     id: 2,
                     title: 'POS SYSTEMS',
                     imageUrl: '/images/netwrking.jpg',
-                    price: '$499.99',
+                    price: '',
                     description: 'One-of-a-kind original artworks'
                 },
                 {
                     id: 2,
                     title: 'ELECTRIC FENCE INSTALLATION',
                     imageUrl: '/images/ECN.jpg',
-                    price: '$499.99',
+                    price: '',
                     description: 'One-of-a-kind original artworks'
                 },
                 {
                     id: 2,
                     title: 'SECURITY SYSTEMS',
                     imageUrl: '/images/security.jpg',
-                    price: '$499.99',
+                    price: '',
                     description: 'One-of-a-kind original artworks'
                 }
             ]
