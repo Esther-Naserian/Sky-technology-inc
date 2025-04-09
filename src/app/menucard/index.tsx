@@ -200,9 +200,14 @@ const ProductDetail: React.FC<DetailModalProps> = ({ title, products, onClose })
                                     <h3 className="text-2xl font-semibold mb-2">{product.title}</h3>
                                     <p className="text-gray-600 mb-2">{product.description}</p>
                                     <p className="text-xl font-bold text-orange-500 mb-4">{product.price}</p>
-                                    <button className="w-full bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 font-medium">
-                                        MAKE A CALL
-                                    </button>
+                                    <a
+                                        href="https://wa.me/254748225118"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-full bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 font-medium text-center block"
+                                    >
+                                       CHAT WITH US
+                                    </a>
                                 </div>
                             </div>
                         ))}
