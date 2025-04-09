@@ -20,14 +20,14 @@ const DarkFooter = () => {
             <div className="bg-amber-500 p-3 rounded-full mb-3">
               <Mail className="w-5 h-5 text-white" />
             </div>
-            <p>skytechnology@gmail.com</p>
+            <p>skydeetech@gmail.com</p>
           </div>
           
           <div className="flex flex-col items-center">
             <div className="bg-amber-500 p-3 rounded-full mb-3">
               <MapPin className="w-5 h-5 text-white" />
             </div>
-            <p>Twin Towers, Kisii Town Room TT110, first floor </p>
+            <p>Twin Towers, Kisii Town,first floor </p>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ const DarkFooter = () => {
 
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm mb-4 md:mb-0">©  2025 Sky Technology  Ltd. All Rights Reserved.</p>
+            <p className="text-sm mb-4 md:mb-0">©  2025 Sky Technology  Inc. All Rights Reserved.</p>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/bashanaimigongoartcenter/?locale=en_GB" className="hover:text-amber-500 transition-colors">
                 <Facebook className="w-5 h-5" />
