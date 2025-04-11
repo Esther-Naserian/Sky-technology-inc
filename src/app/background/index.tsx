@@ -11,7 +11,7 @@ const AboutUsSection = () => {
         <div
           className="relative h-[400px] bg-cover bg-center"
           style={{
-            backgroundImage: "url('/images/')"
+            backgroundImage: "url('/images/background.jpg')"
           }}
         >
           <div className="absolute bottom-0 left-0 right-0">

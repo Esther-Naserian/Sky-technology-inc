@@ -41,7 +41,7 @@ const DarkFooter = () => {
               <li><a href="#" className="hover:text-amber-500 transition-colors">Our Story</a></li>
               <li><a href="#" className="hover:text-amber-500 transition-colors">Awards</a></li>
               <li><a href="#" className="hover:text-amber-500 transition-colors">Our Team</a></li>
-              <li><a href="#" className="hover:text-amber-500 transition-colors">Career</a></li>
+              <li><a href="#" className="hover:text-amber-500 transition-colors">Blogs</a></li>
             </ul>
           </div>
 
