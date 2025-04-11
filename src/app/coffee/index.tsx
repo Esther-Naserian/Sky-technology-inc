@@ -146,7 +146,7 @@ export default function HeroSection() {
             </div>
 
             <ul className="hidden md:flex space-x-8 text-xl text-gray-200">
-              {['HOME', 'ABOUT', 'PRODUCTS', 'TEAM', 'CONTACT'].map((item) => (
+              {['HOME', 'ABOUT', 'SERVICES', 'TEAM', 'CONTACT'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -180,7 +180,7 @@ export default function HeroSection() {
         
           <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden absolute top-20 left-0 right-0 bg-black bg-opacity-90 z-20`}>
             <ul className="px-8 py-4 space-y-4 text-gray-200">
-              {['HOME', 'ABOUT', 'PRODUCT', 'TEAM', 'CONTACT'].map((item) => (
+              {['HOME', 'ABOUT', 'SERVICES', 'TEAM', 'CONTACT'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase().replace(' ', '-')}`} 
@@ -226,7 +226,7 @@ export default function HeroSection() {
               <button 
                 className="border-2 border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 text-sm tracking-wider relative overflow-hidden group"
               >
-                <span className="relative z-10">FIND US</span>
+                <span className="relative z-10">GET STARTED</span>
                 <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
               </button>
             </div>
