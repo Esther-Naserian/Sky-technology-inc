@@ -18,7 +18,7 @@ const RealEstateFooter = () => {
               <Phone className="w-6 h-6 text-white" />
             </div>
             <h3 className="font-semibold mb-2">Call Us</h3>
-            <p className="text-blue-400 font-semibold text-lg">+254 748 225 118</p>
+            <p className="text-blue-400 font-semibold text-lg">+254 768 042550</p>
             <p className="text-gray-400 text-sm mt-1">Available 24/7</p>
           </div>
           
