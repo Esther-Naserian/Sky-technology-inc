@@ -35,7 +35,7 @@ const RealEstateFooter = () => {
             <div className="bg-blue-500 p-4 rounded-full mb-4">
               <MapPin className="w-6 h-6 text-white" />
             </div>
-            <h3 className="font-semibold mb-2">Visit Us</h3>
+            <h3 className="font-semibold mb-2">Visit me</h3>
             <p className="text-blue-400 font-semibold">Nairobi CBD</p>
             <p className="text-gray-400 text-sm mt-1">Kenya</p>
           </div>

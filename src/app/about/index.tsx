@@ -16,12 +16,12 @@ const AboutSection = () => {
     {
       icon: <Shield className="w-12 h-12 text-blue-600" />,
       title: "Trust & Integrity",
-      description: "We build lasting relationships through transparent dealings and honest communication with every client."
+      description: "I build lasting relationships through transparent dealings and honest communication with every client."
     },
     {
       icon: <Heart className="w-12 h-12 text-blue-600" />,
       title: "Client-Focused Service",
-      description: "Your dreams become our mission. We go above and beyond to ensure your real estate goals are achieved."
+      description: "Your dreams become my mission. I go above and beyond to ensure your real estate goals are achieved."
     },
     {
       icon: <Award className="w-12 h-12 text-blue-600" />,
@@ -43,7 +43,7 @@ const AboutSection = () => {
           <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-center">About Kirui </h1>
             <p className="text-xl md:text-2xl text-center max-w-4xl px-4 leading-relaxed">
-              Your trusted partners in finding the perfect property. We turn real estate dreams into reality 
+              Your trusted partner in finding the perfect property. I turn real estate dreams into reality 
               with expertise, dedication, and personalized service that puts you first.
             </p>
           </div>
@@ -75,12 +75,12 @@ const AboutSection = () => {
                 <span className="text-blue-600"> Creating Homes</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                For over 15 years, Kirui  Real Estate has been more than just a property company. 
-                We&apos;re dream builders, home creators, and investment partners who understand that buying or 
+                For over 10 years, I have  veen able to serve over 10k million. 
+                I&apos;re dream builders, home creators, and investment partners who understand that buying or 
                 selling property is one of life&apos;s most important decisions.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Our deep understanding of the Kenyan real estate market, combined with our commitment to 
+                My deep understanding of the Kenyan real estate market, combined with our commitment to 
                 exceptional service, has helped over 1,000 families find their perfect homes and helped 
                 countless investors build their wealth through strategic property investments.
               </p>
@@ -121,9 +121,9 @@ const AboutSection = () => {
 
         {/* Our Values */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Core Values</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">My Core Values</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            These principles guide everything we do and ensure every client receives the highest level of service.
+            These principles guide everything I do and ensure every client receives the highest level of service.
           </p>
         </div>
 
