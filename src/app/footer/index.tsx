@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Phone, Mail, MapPin, ArrowRight, Facebook, Linkedin, Twitter, Instagram, Home, Building, Users } from 'lucide-react';
+import { Phone, Mail, MapPin, ArrowRight, Facebook, Linkedin, Twitter, Instagram,  Building, Users } from 'lucide-react';
 
 const RealEstateFooter = () => {
   return (
@@ -27,7 +27,7 @@ const RealEstateFooter = () => {
               <Mail className="w-6 h-6 text-white" />
             </div>
             <h3 className="font-semibold mb-2">Email Us</h3>
-            <p className="text-blue-400 font-semibold">info@kiruimiriam.co.ke</p>
+            <p className="text-blue-400 font-semibold">info@kirui.co.ke</p>
             <p className="text-gray-400 text-sm mt-1">We reply within 24 hours</p>
           </div>
           

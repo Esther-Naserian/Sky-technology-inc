@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect, SetStateAction, useCallback } from 'react';
-import Image from 'next/image';
 
 const TRANSITION_DURATION = 1000; 
 

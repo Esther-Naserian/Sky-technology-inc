@@ -76,8 +76,8 @@ const AboutSection = () => {
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 For over 15 years, Kirui  Real Estate has been more than just a property company. 
-                We're dream builders, home creators, and investment partners who understand that buying or 
-                selling property is one of life's most important decisions.
+                We&apos;re dream builders, home creators, and investment partners who understand that buying or 
+                selling property is one of life&apos;s most important decisions.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Our deep understanding of the Kenyan real estate market, combined with our commitment to 
@@ -143,8 +143,8 @@ const AboutSection = () => {
         <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-3xl p-12 text-center text-white">
           <h2 className="text-4xl font-bold mb-6">Ready to Find Your Dream Property?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Whether you're buying your first home, upgrading to a larger space, or looking for investment opportunities, 
-            we're here to guide you every step of the way.
+            Whether you&apos;re buying your first home, upgrading to a larger space, or looking for investment opportunities, 
+            we&apos;re here to guide you every step of the way.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
