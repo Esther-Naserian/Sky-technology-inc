@@ -1,4 +1,3 @@
-
 'use client'
 
 import { useState, useEffect, SetStateAction, useCallback } from 'react';
@@ -14,29 +13,29 @@ export default function HeroSection() {
 
   const slides = [
     {
-      image: '/images/IMG_6823.jpg',
-      title: 'NETWORKING',
-      description: 'BEHIND EVERY SEAMLESS CONNECTION IS SKY TECHNOLOGY EXPERTISE'
+      image: 'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg',
+      title: 'LUXURY HOMES',
+      description: 'DISCOVER EXQUISITE PROPERTIES THAT DEFINE SOPHISTICATED LIVING'
     },
     {
-      image: '/images/IMG_6831.jpg',
-      title: 'CCTV INSTALLATION',
-      description: 'Secure Your Space with Expert CCTV Installation'
+      image: 'https://images.pexels.com/photos/17797763/pexels-photo-17797763.jpeg',
+      title: 'COMMERCIAL PROPERTIES',
+      description: 'PRIME BUSINESS LOCATIONS FOR YOUR INVESTMENT SUCCESS'
     },
     {
-      image: '/images/IMG_6832.jpg',
-      title: 'SKY TECHNOLOGY INC',
-      description: 'FIND THE PERFECT SERVICES FOR EVERY OCCASSION'
+      image: 'https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg',
+      title: 'FAMILY RESIDENCES',
+      description: 'FIND THE PERFECT HOME WHERE MEMORIES ARE MADE'
     },
     {
-      image: '/images/IMG_6833.jpg',
-      title: 'SOLAR INSTALLATION',
-      description: 'Harness the Power of the Sun with Expert Solar Installation'
+      image: 'https://images.pexels.com/photos/5845712/pexels-photo-5845712.jpeg',
+      title: 'INVESTMENT OPPORTUNITIES',
+      description: 'SECURE YOUR FINANCIAL FUTURE WITH SMART REAL ESTATE INVESTMENTS'
     },
     {
-      image: '/images/IMG_6835.jpg',
-      title: 'COMPUTER PRODUCTS',
-      description: 'EXPERIENCE COMFORT AND LUXURY'
+      image: 'https://images.pexels.com/photos/33247902/pexels-photo-33247902.jpeg',
+      title: 'MODERN APARTMENTS',
+      description: 'CONTEMPORARY LIVING SPACES IN PREMIUM LOCATIONS'
     }
   ];
 
@@ -129,24 +128,20 @@ export default function HeroSection() {
         
           <nav className="sticky top-0 z-50 flex justify-between items-center px-8 py-6 bg-black/70 backdrop-blur-md">
             <div className="flex items-center">
-              <div className="w-18 h-16 relative">
-                <Image
-                  src="/images/logo.png"
-                  alt=""
-                  width={90}
-                  height={50}
-                  className="rounded-full"
-                  priority
-                />
-              </div>
-              <div className="flex flex-col ml-2 mt-10">
-                <span className="text-white text-[20px] font-serif">SKY</span>
-                <span className="text-white text-[20PX] font-serif">TECHNOLOGY</span>
+              <div className="flex items-center">
+                {/* Custom Logo Design */}
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="text-white font-bold text-xl">K</div>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-white text-xl font-bold tracking-wide">KIRUI</span>
+                  <span className="text-blue-300 text-sm font-medium tracking-wider">REAL ESTATE</span>
+                </div>
               </div>
             </div>
 
             <ul className="hidden md:flex space-x-8 text-xl text-gray-200">
-              {['HOME', 'ABOUT', 'SERVICES', 'TEAM', 'CONTACT'].map((item) => (
+              {['HOME', 'PROPERTIES', 'ABOUT', 'SERVICES', 'CONTACT'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -180,7 +175,7 @@ export default function HeroSection() {
         
           <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden absolute top-20 left-0 right-0 bg-black bg-opacity-90 z-20`}>
             <ul className="px-8 py-4 space-y-4 text-gray-200">
-              {['HOME', 'ABOUT', 'SERVICES', 'TEAM', 'CONTACT'].map((item) => (
+              {['HOME', 'PROPERTIES', 'ABOUT', 'SERVICES', 'CONTACT'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase().replace(' ', '-')}`} 
@@ -223,12 +218,19 @@ export default function HeroSection() {
               >
                 {slides[currentSlide].description}
               </p>
-              <button 
-                className="border-2 border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 text-sm tracking-wider relative overflow-hidden group"
-              >
-                <span className="relative z-10">GET STARTED</span>
-                <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
-              </button>
+              <div className="flex gap-4 justify-center">
+                <button
+                  className="border-2 border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 text-sm tracking-wider relative overflow-hidden group"
+                >
+                  <span className="relative z-10">VIEW PROPERTIES</span>
+                  <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                </button>
+                <button
+                  className="bg-amber-500 text-white px-8 py-3 hover:bg-amber-600 transition-all duration-300 text-sm tracking-wider"
+                >
+                  CONTACT US
+                </button>
+              </div>
             </div>
 
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">

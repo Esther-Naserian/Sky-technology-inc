@@ -45,7 +45,7 @@ Partner with us for a smarter, safer, and greener future, powered by innovation.
             
               <div className="relative w-full h-[400px]">
                 <Image
-                  src="/images/ground.jpeg"
+                  src="/images/"
                   alt="Coffee cup with magical tree"
                   fill
                   priority
