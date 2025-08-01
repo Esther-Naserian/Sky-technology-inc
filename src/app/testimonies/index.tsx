@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import Kirui from '../../../public/images/kirui.jpeg'
+// import Kirui from '../../../public/images/kirui.jpeg'
 
 type SocialType = 'twitter' | 'instagram' | 'linkedin';
 
@@ -9,7 +9,7 @@ type TeamMember = {
   name: string;
   role: string;
   description: string;
-  image: object;
+  image: string;
   socials: {
     twitter: string;
     instagram: string;
@@ -47,7 +47,7 @@ const TeamSection = () => {
       name: "Kirui",
       role: "Lead Real Estate Agent & Co-Founder",
       description: "Real estate is not just about property, it's about people — building trust, creating value, and turning dreams into addresses. With over 10 years of experience in the Kenyan property market.",
-      image: {Kirui},
+      image: "{Kirui}",
       socials: {
         twitter: "#",
         instagram: "",
