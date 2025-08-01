@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
+import Kirui from '../../../public/images/kirui.jpeg'
 
 type SocialType = 'twitter' | 'instagram' | 'linkedin';
 
@@ -8,7 +9,7 @@ type TeamMember = {
   name: string;
   role: string;
   description: string;
-  image: string;
+  image: object;
   socials: {
     twitter: string;
     instagram: string;
@@ -46,24 +47,14 @@ const TeamSection = () => {
       name: "Kirui",
       role: "Lead Real Estate Agent & Co-Founder",
       description: "Real estate is not just about property, it's about people — building trust, creating value, and turning dreams into addresses. With over 10 years of experience in the Kenyan property market.",
-      image: "https://images.pexels.com/photos/8292817/pexels-photo-8292817.jpeg",
+      image: {Kirui},
       socials: {
         twitter: "#",
         instagram: "",
         linkedin: ""
       }
     },
-    {
-      name: "Miriam Wairimu",
-      role: "Software Developer",
-      description: "I specialize in developing the site .",
-      image: "https://images.pexels.com/photos/7414904/pexels-photo-7414904.jpeg",
-      socials: {
-        twitter: "#",
-        instagram: "#",
-        linkedin: "#"
-      }
-    }
+   
   ];
 
   return (
@@ -78,7 +69,7 @@ const TeamSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-12">
           {teamMembers.map((member, index) => (
             <div key={index} className="flex items-start gap-6 p-6 rounded-lg bg-gray-100 shadow-md">
               <div className="relative">
