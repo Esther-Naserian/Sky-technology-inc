@@ -178,7 +178,7 @@ const PropertyCard: React.FC<{
     return (
         <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
             {property.featured && (
-                <div className="absolute top-4 left-4 z-10 bg-amber-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                <div className="top-4 left-4 z-10 bg-amber-500 text-white px-3 py-1  text-sm font-medium">
                     Featured
                 </div>
             )}

@@ -59,7 +59,7 @@ const ContactFormFAQ = () => {
             Real Estate Questions?
           </h2>
           <p className="text-gray-400 mb-12">
-            Find answers to our most frequently asked real estate questions
+            Find answers to  most frequently asked real estate questions
           </p>
         </div>
 

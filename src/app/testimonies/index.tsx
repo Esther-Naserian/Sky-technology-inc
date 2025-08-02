@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-// import Kirui from '../../../public/images/kirui.jpeg'
+// import Kirui from '../../../public/images/kirui.jpeg'    
 
 type SocialType = 'twitter' | 'instagram' | 'linkedin';
 
@@ -47,7 +47,7 @@ const TeamSection = () => {
       name: "Kirui",
       role: "Lead Real Estate Agent & Co-Founder",
       description: "Real estate is not just about property, it's about people — building trust, creating value, and turning dreams into addresses. With over 10 years of experience in the Kenyan property market.",
-      image: "{Kirui}",
+      image: "https://images.pexels.com/photos/kirui.jpeg",
       socials: {
         twitter: "#",
         instagram: "",
@@ -62,10 +62,12 @@ const TeamSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-blue-600">
-            Meet Your Real Estate Experts
+            Meet Your Real Estate Expert
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our experienced team is dedicated to helping you find the perfect property and achieve your real estate goals.
+           I am dedicated to helping you find the perfect property and achieve your real estate goals."
+
+.
           </p>
         </div>
         

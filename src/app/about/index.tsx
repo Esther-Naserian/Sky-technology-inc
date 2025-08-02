@@ -75,14 +75,11 @@ const AboutSection = () => {
                 <span className="text-blue-600"> Creating Homes</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                For over 10 years, I have  veen able to serve over 10k million. 
-                I&apos;re dream builders, home creators, and investment partners who understand that buying or 
-                selling property is one of life&apos;s most important decisions.
+               
+               For over 10 years, I’ve had the privilege of guiding individuals and families through one of life’s most important decisions—buying or selling property. I’m not just a property manager; I’m a dream builder, a home creator, and a trusted investment partner.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                My deep understanding of the Kenyan real estate market, combined with our commitment to 
-                exceptional service, has helped over 1,000 families find their perfect homes and helped 
-                countless investors build their wealth through strategic property investments.
+                With a deep understanding of the Kenyan real estate market and a strong commitment to personalized service, I’ve helped over 1,000 families find their perfect homes and supported numerous investors in building wealth through strategic property decisions
               </p>
             </div>
 
