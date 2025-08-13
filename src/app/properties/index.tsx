@@ -158,8 +158,8 @@ const PropertyDetail: React.FC<PropertyDetailProps> = ({ property, onClose }) =>
                                         </div>
                                     </div>
                                     <div className="text-sm text-gray-600">
-                                        Phone: +254 748 225 118<br />
-                                        Email: kirui.miriam@realestate.com
+                                        Phone: +254 768 042550<br />
+                                        Email: info@kirui.co.ke
                                     </div>
                                 </div>
                             </div>
@@ -251,85 +251,85 @@ const PropertiesSection: React.FC = () => {
     const properties: Property[] = [
         {
             id: 1,
-            title: 'Luxury Villa with Ocean View',
-            location: 'Mombasa, Kenya',
-            price: 'KSh 45,000,000',
-            bedrooms: 4,
-            bathrooms: 3,
-            area: '3,500 sq ft',
+            title: 'Plot for Sale - Quarter Acre',
+            location: 'Infinity Area, Eastern Bypass',
+            price: 'KE 9,000,000',
+            bedrooms: 0,
+            bathrooms: 0,
+            area: '1/4 acre',
             images: [
-                'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg',
-                'https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg',
-                'https://images.pexels.com/photos/29201939/pexels-photo-29201939.png'
+                '/images/houseone.png.jpg',
+                '/images/housetwo.png.jpg',
+                '/images/housethree.png.jpg'
             ],
-            description: 'Stunning ocean-view villa with modern amenities, private pool, and spacious gardens. Perfect for luxury living.',
+            description: 'Plot for sale 1/4 (quarter of an acre) Infinity Area, Eastern Bypass 9m Suitable for high-rise development',
             type: 'sale',
             featured: true,
             rating: 4.9,
-            amenities: ['Swimming Pool', 'Garden', 'Garage', 'Security', 'Ocean View', 'Modern Kitchen']
+            amenities: ['High-rise Development Suitable', 'Eastern Bypass Location', 'Commercial Potential', 'Easy Access', 'Development Ready', 'Prime Location']
         },
         {
             id: 2,
-            title: 'Modern Apartment Downtown',
-            location: 'Nairobi CBD, Kenya',
-            price: 'KSh 80,000/month',
-            bedrooms: 2,
-            bathrooms: 2,
-            area: '1,200 sq ft',
+            title: 'Quarter Acre Plot - Kerarapon',
+            location: 'Kerarapon Suburb',
+            price: 'KE 17,000,000',
+            bedrooms: 0,
+            bathrooms: 0,
+            area: '0.1 Ha',
             images: [
-                'https://images.pexels.com/photos/33247902/pexels-photo-33247902.jpeg',
-                'https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg'
+                '/images/landsix.png.jpg',
+                '/images/landseven.png.jpg'
             ],
-            description: 'Contemporary apartment in the heart of Nairobi with city views and premium finishes.',
-            type: 'rent',
+            description: '0.1 Ha (quarter an acre) for sale in suburb area of Kerarapon Red soils, gentle gradient perfect for drainage Developed and safe neighbourhood 17m',
+            type: 'sale',
             rating: 4.7,
-            amenities: ['City View', 'Elevator', 'Gym', 'Parking', 'Security', 'Balcony']
+            amenities: ['Red Soils', 'Gentle Gradient', 'Perfect Drainage', 'Safe Neighbourhood', 'Developed Area', 'Suburban Location']
         },
         {
             id: 3,
-            title: 'Family House with Garden',
-            location: 'Karen, Nairobi',
-            price: 'KSh 25,000,000',
-            bedrooms: 5,
-            bathrooms: 4,
-            area: '4,200 sq ft',
+            title: 'One and Eighth Acre Plot',
+            location: 'Eastern Bypass Frontage',
+            price: 'KE 230,000,000',
+            bedrooms: 0,
+            bathrooms: 0,
+            area: '0.4592 Ha',
             images: [
-                'https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg',
-                'https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg',
-                'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg'
+                '/images/housethree.png.jpg',
+                '/images/houseone.png.jpg',
+                '/images/housetwo.png.jpg'
             ],
-            description: 'Spacious family home with large garden, perfect for children. Located in the prestigious Karen area.',
+            description: '0.4592 Ha (One and eighth acre) 230m Fronting Eastern bypass Perimeter wall Borehole',
             type: 'sale',
             rating: 4.8,
-            amenities: ['Large Garden', 'Fireplace', 'Study Room', 'Garage', 'Security', 'Playground']
+            amenities: ['Eastern Bypass Frontage', 'Perimeter Wall', 'Borehole', 'Large Plot', 'Commercial Potential', 'Water Available']
         },
         {
             id: 4,
-            title: 'Commercial Office Space',
-            location: 'Westlands, Nairobi',
-            price: 'KSh 150,000/month',
-            bedrooms: 0,
-            bathrooms: 2,
-            area: '2,000 sq ft',
+            title: '5 Bedroom Bungalow with SQ',
+            location: 'Near Moi Forces Lanet',
+            price: 'KE 12,000,000',
+            bedrooms: 5,
+            bathrooms: 4,
+            area: '3,500 sq ft',
             images: [
-                'https://images.pexels.com/photos/7535032/pexels-photo-7535032.jpeg',
-                'https://images.pexels.com/photos/17797763/pexels-photo-17797763.jpeg'
+                '/images/landeight.png.jpg',
+                '/images/landseven.png.jpg'
             ],
-            description: 'Premium office space in Westlands business district. Modern facilities and excellent connectivity.',
-            type: 'rent',
-            amenities: ['Conference Room', 'Parking', 'Security', 'Elevator', 'AC', 'High-Speed Internet']
+            description: '5 Bedroom Bungalow with Detached SQ + garage 2 KMs from Moi Forces Lanet & 3 KMs from Nairobi Highway 12m',
+            type: 'sale',
+            amenities: ['Detached SQ', 'Garage', 'Near Moi Forces', 'Highway Access', 'Spacious Bedrooms', 'Family Home']
         },
         {
             id: 5,
             title: 'Coastal Beachfront Property',
             location: 'Diani Beach, Kenya',
-            price: 'KSh 35,000,000',
+            price: 'KE 35,000,000',
             bedrooms: 3,
             bathrooms: 2,
             area: '2,800 sq ft',
             images: [
-                'https://images.pexels.com/photos/29201939/pexels-photo-29201939.png',
-                'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg'
+                '/images/housetwo.png.jpg',
+                '/images/houseone.png.jpg'
             ],
             description: 'Exclusive beachfront property with direct beach access. Perfect for vacation home or investment.',
             type: 'sale',
@@ -341,12 +341,12 @@ const PropertiesSection: React.FC = () => {
             id: 6,
             title: 'Student Accommodation',
             location: 'Near University of Nairobi',
-            price: 'KSh 25,000/month',
+            price: 'KE 25,000/month',
             bedrooms: 1,
             bathrooms: 1,
             area: '500 sq ft',
             images: [
-                'https://images.pexels.com/photos/5845652/pexels-photo-5845652.jpeg'
+                '/images/landsix.png.jpg'
             ],
             description: 'Affordable and convenient accommodation for students. Close to university and public transport.',
             type: 'rent',
